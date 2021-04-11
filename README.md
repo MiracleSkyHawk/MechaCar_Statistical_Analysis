@@ -39,15 +39,25 @@ Lot Summary:
 
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
   - As can be seen in the analysis results above, the variance of the total suspension coils is roughly 62.3 pounds per square inch which is smaller than the threshold of 100 pounds per square inch. The current manufacturing data thus meet this design specification for all manufacturing lots in total.
-  - However, the variance of lot 3 is about 170.3pounds per square inch which is much higher than the design specification. Therefore, lot 3 does not meet the design specification.
+  - However, the variance of lot 3 is about 170.3 pounds per square inch which is much higher than the design specification. Therefore, lot 3 does not meet the design specification.
 
 ## T-Tests on Suspension Coils
 
-
+The t-test results for the whole suspension coil dataset:
 ![Deliverable_3_total](Images/Deliverable_3_total.png)
+The t-test results for lot 1:
 ![Deliverable_3_lot1](Images/Deliverable_3_lot1.png)
+The t-test results for lot 2:
 ![Deliverable_3_lot2](Images/Deliverable_3_lot2.png)
+The t-test results for lot 3:
 ![Deliverable_3_lot3](Images/Deliverable_3_lot3.png)
+
+As the results indicate, the p-value for the whole suspension coil dataset is 0.06028 which is larger than the significance level we defined. This means that we cannot reject the null hypothesis which states that there is no statistical difference between the observed sample mean and the population mean. 
+
+The p-value for the t-test of lot 1 is 1. This means the mean of lot 1 is identical to the population mean. The p-value for the t-test of lot 2 is 0.61. Therefore, it is very likely that the mean of lot 2 has no difference from the population mean.
+
+However, the p-value for the t-test of lot 3 is 0.04168. This number is smaller than the significance level we defined. We can thus reject the the null hypothesis and state that the mean of lot 3 is probably different from the population mean. Lot 3 may have some quality issue that causes the value to drift, which needs attention from engineering.
+
 
 
 
