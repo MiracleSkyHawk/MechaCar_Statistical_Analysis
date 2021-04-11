@@ -59,8 +59,14 @@ The p-value for the t-test of lot 1 is 1. This means the mean of lot 1 is identi
 However, the p-value for the t-test of lot 3 is 0.04168. This number is smaller than the significance level we defined. We can thus reject the the null hypothesis and state that the mean of lot 3 is probably different from the population mean. Lot 3 may have some quality issue that causes the value to drift, which needs attention from engineering.
 
 
+## Study Design: MechaCar vs Competition
 
+There are many metrics that can be used to evaluate the performance of a car. One aspect that many customers may be interested to know is the cabin noise. Most customers who values comfort more than performance prefer a lower cabin noise level. Therefore, a statistical study can be conducted to compare the MechaCar against the competition on the cabin noise.
 
+- What metric or metrics are you going to test?
+  - There are a few metrics that can be used for this test. 
+    - Decibel level measured in the driver's seat
+    - 
 
 
 
