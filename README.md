@@ -28,3 +28,6 @@ AWD|0.1852
   -  The R-squared value of this model is 0.7149 which means there is a strong correlation between the model and the dataset. Therefore, this linear model can effectively predict mpg of MechaCar prototypes.
 
 ## Summary Statistics on Suspension Coils
+
+![Deliverable_2_total](Images/Deliverable_2_total.png)
+![Deliverable_2_grouped](Images/Deliverable_2_grouped.png)
