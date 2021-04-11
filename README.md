@@ -3,7 +3,7 @@
 All the analyses below are established on the assumption that the significance level is 0.05. 
 
 
-## 1. Linear Regression to Predict MPG
+## Linear Regression to Predict MPG
 
 ![Deliverable_1_lm](Images/Deliverable_1_lm.png)
 ![Deliverable_1_lm_summary](Images/Deliverable_1_lm_summary.png)
@@ -27,4 +27,4 @@ AWD|0.1852
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
   -  The R-squared value of this model is 0.7149 which means there is a strong correlation between the model and the dataset. Therefore, this linear model can effectively predict mpg of MechaCar prototypes.
 
-
+## Summary Statistics on Suspension Coils
