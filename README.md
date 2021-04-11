@@ -65,8 +65,26 @@ There are many metrics that can be used to evaluate the performance of a car. On
 
 - What metric or metrics are you going to test?
   - There are a few metrics that can be used for this test. 
-    - Decibel level measured in the driver's seat
-    - 
-
+    1. Decibel level measured at the driver's seat at 60 km/h
+    2. Decibel level measured at the seat behind the driver's seat at 60 km/h
+    3. Decibel level measured at the driver's seat at 120 km/h
+    4. Decibel level measured at the seat behind the driver's seat at 120 km/h
+    5. Noise tone rated by customers (from the most disturbing 1 to the most pleasant 10)
+    6. Overall customer rating (from the most disturbing 1 to the most pleasant 10)
+- What is the null hypothesis or alternative hypothesis?
+  - Null hypothesis: There is no difference between the cabin noise of the MechaCar and that of the competition
+  - Alternative hypothesis: The cabin noise of the MechaCar is better than that of the competition
+- What statistical test would you use to test the hypothesis? And why?
+  - Multiple statistical tests will be required to test the hypothesis. 
+    - Two-Sample t-tests can be conducted for metric 1 to metric 5 to identify whether there is a statistical difference between the distribution noise level means from the two smaples. If there is a difference, we can identify which means are samller. A lower mean means the vehicle is quieter or sounds better in that specific situation.
+    - A multiple linear regression model can be built to see which metric (1-5) affects the metric 6 the most. Compare the results for the MechaCar against the ones for the competition to see which area should be improved to be more competitive.
+- What data is needed to run the statistical test?
+  - The following data is required.
+    - The mean of 5 Decibel levels measured at the driver's seat at 60 km/h for 20 cars 
+    - The mean of 5 Decibel levels measured at the seat behind the driver's seat at 60 km/h for 20 cars 
+    - The mean of 5 Decibel levels measured at the driver's seat at 120 km/h for 20 cars 
+    - The mean of 5 Decibel levels measured at the seat behind the driver's seat at 120 km/h for 20 cars 
+    - 300 noise tone ratings by survey 
+    - 300 Overall customer ratings
 
 
