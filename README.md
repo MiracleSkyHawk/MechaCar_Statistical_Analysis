@@ -44,12 +44,19 @@ Lot Summary:
 ## T-Tests on Suspension Coils
 
 The t-test results for the whole suspension coil dataset:
+
 ![Deliverable_3_total](Images/Deliverable_3_total.png)
+
 The t-test results for lot 1:
+
 ![Deliverable_3_lot1](Images/Deliverable_3_lot1.png)
+
 The t-test results for lot 2:
+
 ![Deliverable_3_lot2](Images/Deliverable_3_lot2.png)
+
 The t-test results for lot 3:
+
 ![Deliverable_3_lot3](Images/Deliverable_3_lot3.png)
 
 As the results indicate, the p-value for the whole suspension coil dataset is 0.06028 which is larger than the significance level we defined. This means that we cannot reject the null hypothesis which states that there is no statistical difference between the observed sample mean and the population mean. 
